@@ -15,7 +15,7 @@ body {
   position: relative;
   width: 100%;
   height: 90%;
-
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
   outline: solid black 1px;
