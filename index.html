@@ -3604,16 +3604,18 @@
         <script>
           function fun() {
             clickme++
+            var url = "http://" + window.location.hostname + ":3000/";
+            
             if (clickme >= 10) {
               let content = document.documentElement;
-              content.innerHTML =
-                "<iframe src='chat.html' style='position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'></iframe>";
+            
+             content.innerHTML = '<iframe src="'+url+'" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>'
             }
           }
         </script>
       </div>
     </div>
-
+   
     <div class="runner-container" style="width: 600px; height: 150px;"><canvas class="runner-canvas" width="1200"
         height="300" style="width: 600px; height: 150px;"></canvas></div>
   </div>
