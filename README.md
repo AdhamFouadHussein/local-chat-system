@@ -17,10 +17,6 @@ Taken from [socket.io](https://socket.io/get-started/chat):
  ```
  npm init
  ```
-> Now, in order to easily populate the dependencies with the things we need, we’ll use npm install --save:
-```
-npm install --save express@4.15.2
-```
 ## Running the script
 
 If you run

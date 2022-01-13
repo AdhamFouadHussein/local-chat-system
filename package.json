@@ -6,10 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Austin Hale",
+  "author": "Adham Fouad",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "socket.io": "^2.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdhamFouadHussein/local-chat-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdhamFouadHussein/local-chat-system/issues"
+  },
+  "homepage": "https://github.com/AdhamFouadHussein/local-chat-system#readme"
 }
